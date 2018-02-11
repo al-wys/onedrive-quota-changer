@@ -1,6 +1,6 @@
 Add-PSSnapin "Microsoft.SharePoint.PowerShell"
 
-$quotaSettingSiteUrl = "http://sp/sites/site"; # The url of Quota Setting Site
+$quotaSettingSiteUrl = "http://sp/Sites/TestForOneDrive"; # The url of Quota Setting Site
 
 $quotaSettingSite = Get-SPSite $quotaSettingSiteUrl
 $quotaSettingListUrl = [Microsoft.SharePoint.Utilities.SPUrlUtility]::CombineUrl($quotaSettingSiteUrl, 'Lists/QuotaSetting') # Get the list that stores quota settings

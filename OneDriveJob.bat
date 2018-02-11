@@ -1,1 +1,1 @@
-Powershell.exe -ExecutionPolicy RemoteSigned -File "~\OneDriveQuotaChanger.ps1"
+Powershell.exe -ExecutionPolicy RemoteSigned -File "C:\Demo\src\OneDriveQuotaChanger.ps1"
