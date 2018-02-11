@@ -21,7 +21,7 @@ Automatically change OneDrive sites' Quota Template based on SharePoint Groups. 
 ## Create a quota settings list in the site collection that owns these SharePoint groups
 _I have a SharePoint site collection, Test for OneDrive (http://sp/Sites/TestForOneDrive). It owns two SharePoint groups, FTEs and Managers. So I'll use this site collection in this demo._
 
-![People and Groups](images/people-and-groups.png)
+![People and Groups](images/people-and-groups.PNG)
 
 1. Open the target __Site Collection__
 2. Click __Setting Icon__ -> __Add an app__
