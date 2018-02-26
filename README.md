@@ -1,4 +1,7 @@
 # onedrive-quota-changer
+
+[简体中文](README-ZHCN.md)
+
 Automatically change OneDrive sites' Quota Template based on SharePoint Groups. For example, assign 300M to managers, assign 200M to FTEs.
 
 ## Steps
@@ -12,10 +15,12 @@ Automatically change OneDrive sites' Quota Template based on SharePoint Groups. 
 2. Click __Application Management__ -> __Specify quota templates__ (Under __Site Collections__)
     
     ![Specify quota templates](images/specify-quota-templates.png)
+
 3. Check __Create a new quota template__ and input __New template name__
 4. Specify limitation values
 
     ![Quota template](images/quota-template.png)
+
 5. Click __OK__
 
 ## Create a quota settings list in the site collection that owns these SharePoint groups
@@ -82,9 +87,9 @@ _I have a SharePoint site collection, Test for OneDrive (http://sp/Sites/TestFor
 
     ![Site collection url](images/site-url.PNG)
 
-5. Modify file _OneDriveJob.bat_, change the file url as what you set (_C:\Demo\src\OneDriveQuotaChanger.ps1_ in this demo)
+5. Modify file _OneDriveJob.bat_, change the file location as what you set (_C:\Demo\src\OneDriveQuotaChanger.ps1_ in this demo)
 
-    ![File url](images/file-url.PNG)
+    ![File location](images/file-url.PNG)
 
 ## Create Task in Task Scheduler
 
